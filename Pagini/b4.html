@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Patrate+Suma</title>
+<script src="jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#you").on("click",function(){
+		$("#googleMaps").hide();
+		$("#youtube").slideToggle(1000);
+			});
+	$("#gog").on("click",function(){
+		$("#youtube").hide();
+		$("#googleMaps").slideToggle(1000);
+			});
+	});
+</script>
+
+
+</head>
+<body>
+<div id="container" width="100%"height="100%"align="center">
+<div id="meniu"align="center">
+<input type="button" id="b1" value="B1" onclick="location.href='../index.html'">
+<input type="button" id="b2" value="B2" onclick="location.href='b2.html'">
+<input type="button" id="b3" value="B3" onclick="location.href='b3.html'">
+<input type="button" id="b4" value="B4" onclick="location.href='#'"><br>
+</div>
+<table>
+<tr>
+<td>asdfasdgasf<br>
+sdfvsdfsdfsdf</td>
+<td><img src="matzu.jpg"> </td>
+</tr>
+<tr>
+<td colspan="2">
+asfgasgf sdfasf asfgasgasfg sadgdfasgasfg asfgasgasfg asgsagasfgas<br>
+asfgasgf sdfasf asfgasgasfg sadgdfasgasfg asfgasgasfg asgsagasfgas<br>
+asfgasgf sdfasf asfgasgasfg sadgdfasgasfg asfgasgasfg asgsagasfgas<br>
+asfgasgf sdfasf asfgasgasfg sadgdfasgasfg asfgasgasfg asgsagasfgas<br>
+asfgasgf sdfasf asfgasgasfg sadgdfasgasfg asfgasgasfg asgsagasfgas<br>
+</td>
+</tr>
+</table>
+<div>
+<input id="you"type="button"value="Youtube">
+<input id="gog"type="button"value="Google Maps"><br>
+<iframe style="display:none"id="youtube"width="560" height="315" src="https://www.youtube.com/embed/E4u32rmY_CA" frameborder="0" allowfullscreen></iframe>
+<iframe style="display:none"id="googleMaps"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10933.023099420121!2d23.55842905!3d46.75985465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1423064755645" width="400" height="300" frameborder="0" style="border:0"></iframe>
+</div>
+</div>
+</body>
+</html>
